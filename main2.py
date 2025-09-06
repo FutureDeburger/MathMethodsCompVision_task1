@@ -11,7 +11,7 @@ my_image = cv.imread(cv.samples.findFile("more_green.jpg"))
 
 
 b, g, r = cv.split(my_image)
-green_image = g
+green_image = b
 # green_image = my_image[:, :, 1]
 
 # cv.imshow("Green image", green_image)

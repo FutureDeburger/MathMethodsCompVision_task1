@@ -48,7 +48,6 @@ cv.compare(green_image, clone1, cv.CMP_GE, clone2)
 # k = cv.waitKey(0)
 
 
-
 cv.subtract(green_image, thresh / 2, green_image, clone2)
 # print(green_image)
 
